@@ -1,0 +1,48 @@
+.input-group { margin-bottom:10px; width:290px; }
+.Myform
+{
+    max-width:900px;
+    position:absolute;
+    margin-top:200px;
+    margin-left:500px;
+}
+.row .myrow{max-width:700px;}
+.panel-primary {
+    border-color: #656c73;
+}
+.panel-primary>.panel-heading {
+    color: #fff;
+    background-color: rgba(85, 93, 99, 0.67);
+    border-color: #545b60;
+}
+.username.ng-valid {
+    background-color: lightgreen;
+}
+.username.ng-dirty.ng-invalid-required {
+    background-color: red;
+}
+.username.ng-dirty.ng-invalid-minlength {
+    background-color: yellow;
+}
+.userpassword.ng-valid {
+    background-color: lightgreen;
+}
+.userpassword.ng-dirty.ng-invalid-required {
+    background-color: #FF95B2;
+}
+
+.has-error{
+    color:red;
+}
+body, .form-control{
+    font-size:12px!important;
+}
+.close-form:hover
+{
+    -webkit-transform: scale(1.8,1.8);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 550ms;
+    -moz-transform: scale(1.8,1.8);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 550ms;
+}

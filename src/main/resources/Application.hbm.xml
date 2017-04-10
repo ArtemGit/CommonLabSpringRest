@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="entities.Application" table="application" schema="kursbank">
+        <id name="idapplication" column="idapplication"/>
+        <property name="date" column="date"/>
+        <property name="assetIdAsset" column="asset_idAsset"/>
+        <property name="fio" column="fio"/>
+        <property name="phone" column="phone"/>
+        <property name="status" column="status"/>
+        <property name="price" column="price"/>
+    </class>
+</hibernate-mapping>

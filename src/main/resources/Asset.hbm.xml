@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="entities.Asset" table="asset" schema="kursbank">
+        <id name="idAsset" column="idAsset"/>
+        <property name="assetNameModel" column="assetNameModel"/>
+        <property name="assetCost" column="assetCost"/>
+        <property name="description" column="description"/>
+        <property name="username" column="username"/>
+        <property name="goodsGroupName" column="goodsGroup_name"/>
+        <property name="staticAssetStatusIdstaticAssetStatus" column="static_asset_status_idstatic_asset_status"/>
+        <property name="dateRegistration" column="date_registration"/>
+        <property name="enable" column="enable"/>
+    </class>
+</hibernate-mapping>

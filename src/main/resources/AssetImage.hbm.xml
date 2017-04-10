@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="entities.AssetImage" table="asset_image" schema="kursbank">
+        <id name="idassetImage" column="idasset_image"/>
+        <property name="nameImage" column="nameImage"/>
+        <property name="assetIdAsset" column="asset_idAsset"/>
+    </class>
+</hibernate-mapping>

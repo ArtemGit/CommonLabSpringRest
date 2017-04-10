@@ -1,0 +1,353 @@
+<dataSource name="MySQL - kursbank@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="2.6">
+    <schema id="1" name="kursbank">
+      <visible>1</visible>
+    </schema>
+    <schema id="2" name="angular" />
+    <schema id="3" name="information_schema" />
+    <schema id="4" name="kurs" />
+    <schema id="5" name="mydb" />
+    <schema id="6" name="mysql" />
+    <schema id="7" name="performance_schema" />
+    <schema id="8" name="ris4" />
+    <schema id="9" name="sakila" />
+    <schema id="10" name="sample" />
+    <schema id="11" name="studentsdb" />
+    <schema id="12" name="sys" />
+    <schema id="13" name="world" />
+    <schema id="14" name="library" />
+    <table id="15" parent="1" name="application" />
+    <table id="16" parent="1" name="asset" />
+    <table id="17" parent="1" name="users" />
+    <table id="18" parent="1" name="group_authorities" />
+    <table id="19" parent="1" name="group_members" />
+    <table id="20" parent="1" name="groups" />
+    <table id="21" parent="1" name="persistent_logins" />
+    <table id="22" parent="1" name="goodsgroup" />
+    <table id="23" parent="1" name="asset_image" />
+    <table id="24" parent="1" name="client_desire_groups" />
+    <table id="25" parent="1" name="static_asset_status" />
+    <table id="26" parent="1" name="static_goods_group" />
+    <column id="27" parent="15" name="date">
+      <mandatory>1</mandatory>
+      <data-type>date|0</data-type>
+    </column>
+    <column id="28" parent="15" name="asset_idAsset">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="29" parent="15" name="idapplication">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="30" parent="15" name="fio">
+      <mandatory>1</mandatory>
+      <data-type>varchar(45)|0</data-type>
+    </column>
+    <column id="31" parent="15" name="phone">
+      <mandatory>1</mandatory>
+      <data-type>varchar(45)|0</data-type>
+    </column>
+    <column id="32" parent="15" name="status">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <index id="33" parent="15" name="fk_application_asset1_idx">
+      <columns>asset_idAsset</columns>
+      <desc-columns />
+    </index>
+    <key id="34" parent="15" name="PRIMARY">
+      <columns>idapplication</columns>
+      <primary>1</primary>
+    </key>
+    <foreign-key id="35" parent="15" name="fk_application_asset1">
+      <columns>asset_idAsset</columns>
+      <ref-key>~.asset.PRIMARY</ref-key>
+      <cascade-update-rule>update</cascade-update-rule>
+      <cascade-delete-rule>delete</cascade-delete-rule>
+    </foreign-key>
+    <column id="36" parent="16" name="idAsset">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="37" parent="16" name="assetNameModel">
+      <mandatory>1</mandatory>
+      <data-type>varchar(45)|0</data-type>
+    </column>
+    <column id="38" parent="16" name="assetCost">
+      <mandatory>1</mandatory>
+      <data-type>double|0</data-type>
+      <default-expression>'0'</default-expression>
+    </column>
+    <column id="39" parent="16" name="description">
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <column id="40" parent="16" name="username">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="41" parent="16" name="goodsGroup_name">
+      <mandatory>1</mandatory>
+      <data-type>varchar(45)|0</data-type>
+    </column>
+    <column id="42" parent="16" name="static_asset_status_idstatic_asset_status">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="43" parent="16" name="date_registration">
+      <mandatory>1</mandatory>
+      <data-type>varchar(45)|0</data-type>
+    </column>
+    <column id="44" parent="16" name="enable">
+      <mandatory>1</mandatory>
+      <data-type>tinyint(4)|0</data-type>
+    </column>
+    <index id="45" parent="16" name="fk_asset_goodsGroup1_idx">
+      <columns>goodsGroup_name</columns>
+      <desc-columns />
+    </index>
+    <index id="46" parent="16" name="fk_asset_static_asset_status1_idx">
+      <columns>static_asset_status_idstatic_asset_status</columns>
+      <desc-columns />
+    </index>
+    <index id="47" parent="16" name="fk_asset_users1_idx">
+      <columns>username</columns>
+      <desc-columns />
+    </index>
+    <key id="48" parent="16" name="PRIMARY">
+      <columns>idAsset</columns>
+      <primary>1</primary>
+    </key>
+    <foreign-key id="49" parent="16" name="fk_asset_users1">
+      <columns>username</columns>
+      <ref-key>~.users.PRIMARY</ref-key>
+      <cascade-update-rule>update</cascade-update-rule>
+      <cascade-delete-rule>delete</cascade-delete-rule>
+    </foreign-key>
+    <foreign-key id="50" parent="16" name="fk_asset_goodsGroup1">
+      <columns>goodsGroup_name</columns>
+      <ref-key>~.goodsgroup.PRIMARY</ref-key>
+      <cascade-update-rule>update</cascade-update-rule>
+      <cascade-delete-rule>delete</cascade-delete-rule>
+    </foreign-key>
+    <foreign-key id="51" parent="16" name="fk_asset_static_asset_status1">
+      <columns>static_asset_status_idstatic_asset_status</columns>
+      <ref-key>~.static_asset_status.PRIMARY</ref-key>
+      <cascade-update-rule>no_action</cascade-update-rule>
+      <cascade-delete-rule>no_action</cascade-delete-rule>
+    </foreign-key>
+    <column id="52" parent="17" name="username">
+      <mandatory>1</mandatory>
+      <data-type>varchar(45)|0</data-type>
+    </column>
+    <column id="53" parent="17" name="password">
+      <mandatory>1</mandatory>
+      <data-type>varchar(45)|0</data-type>
+    </column>
+    <column id="54" parent="17" name="enabled">
+      <mandatory>1</mandatory>
+      <data-type>tinyint(4)|0</data-type>
+      <default-expression>'1'</default-expression>
+    </column>
+    <column id="55" parent="17" name="name">
+      <data-type>varchar(45)|0</data-type>
+    </column>
+    <column id="56" parent="17" name="surname">
+      <data-type>varchar(45)|0</data-type>
+    </column>
+    <column id="57" parent="17" name="fathername">
+      <data-type>varchar(45)|0</data-type>
+    </column>
+    <column id="58" parent="17" name="phone">
+      <mandatory>1</mandatory>
+      <data-type>varchar(45)|0</data-type>
+    </column>
+    <column id="59" parent="17" name="email">
+      <mandatory>1</mandatory>
+      <data-type>varchar(45)|0</data-type>
+    </column>
+    <column id="60" parent="17" name="position">
+      <data-type>varchar(45)|0</data-type>
+    </column>
+    <column id="61" parent="17" name="date">
+      <mandatory>1</mandatory>
+      <data-type>varchar(45)|0</data-type>
+    </column>
+    <key id="62" parent="17" name="PRIMARY">
+      <columns>username</columns>
+      <primary>1</primary>
+    </key>
+    <column id="63" parent="18" name="group_id">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20) unsigned|0</data-type>
+    </column>
+    <column id="64" parent="18" name="authority">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <index id="65" parent="18" name="group_id">
+      <columns>group_id</columns>
+      <desc-columns />
+    </index>
+    <foreign-key id="66" parent="18" name="group_authorities_ibfk_1">
+      <columns>group_id</columns>
+      <ref-key>~.groups.PRIMARY</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <column id="67" parent="19" name="id">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20) unsigned|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="68" parent="19" name="username">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="69" parent="19" name="group_id">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20) unsigned|0</data-type>
+    </column>
+    <index id="70" parent="19" name="group_id">
+      <columns>group_id</columns>
+      <desc-columns />
+    </index>
+    <key id="71" parent="19" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+    <foreign-key id="72" parent="19" name="group_members_ibfk_1">
+      <columns>group_id</columns>
+      <ref-key>~.groups.PRIMARY</ref-key>
+      <cascade-update-rule>restrict</cascade-update-rule>
+      <cascade-delete-rule>restrict</cascade-delete-rule>
+    </foreign-key>
+    <column id="73" parent="20" name="id">
+      <mandatory>1</mandatory>
+      <data-type>bigint(20) unsigned|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="74" parent="20" name="group_name">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <key id="75" parent="20" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="76" parent="21" name="username">
+      <mandatory>1</mandatory>
+      <data-type>varchar(64)|0</data-type>
+    </column>
+    <column id="77" parent="21" name="series">
+      <mandatory>1</mandatory>
+      <data-type>varchar(64)|0</data-type>
+    </column>
+    <column id="78" parent="21" name="token">
+      <mandatory>1</mandatory>
+      <data-type>varchar(64)|0</data-type>
+    </column>
+    <column id="79" parent="21" name="last_used">
+      <mandatory>1</mandatory>
+      <data-type>timestamp|0</data-type>
+      <default-expression>CURRENT_TIMESTAMP</default-expression>
+    </column>
+    <key id="80" parent="21" name="PRIMARY">
+      <columns>series</columns>
+      <primary>1</primary>
+    </key>
+    <column id="81" parent="22" name="name">
+      <mandatory>1</mandatory>
+      <data-type>varchar(45)|0</data-type>
+    </column>
+    <column id="82" parent="22" name="image">
+      <mandatory>1</mandatory>
+      <data-type>varchar(200)|0</data-type>
+    </column>
+    <key id="83" parent="22" name="PRIMARY">
+      <columns>name</columns>
+      <primary>1</primary>
+    </key>
+    <column id="84" parent="23" name="idasset_image">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="85" parent="23" name="nameImage">
+      <data-type>varchar(45)|0</data-type>
+    </column>
+    <column id="86" parent="23" name="asset_idAsset">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <index id="87" parent="23" name="fk_asset_image_asset1_idx">
+      <columns>asset_idAsset</columns>
+      <desc-columns />
+    </index>
+    <key id="88" parent="23" name="PRIMARY">
+      <columns>idasset_image</columns>
+      <primary>1</primary>
+    </key>
+    <foreign-key id="89" parent="23" name="fk_asset_image_asset1">
+      <columns>asset_idAsset</columns>
+      <ref-key>~.asset.PRIMARY</ref-key>
+      <cascade-update-rule>no_action</cascade-update-rule>
+      <cascade-delete-rule>no_action</cascade-delete-rule>
+    </foreign-key>
+    <column id="90" parent="24" name="idclient_desire_groups">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="91" parent="24" name="users_username">
+      <mandatory>1</mandatory>
+      <data-type>varchar(45)|0</data-type>
+    </column>
+    <column id="92" parent="24" name="static_goods_group_groupname">
+      <mandatory>1</mandatory>
+      <data-type>varchar(45)|0</data-type>
+    </column>
+    <index id="93" parent="24" name="fk_client_desire_groups_static_goods_group1_idx">
+      <columns>static_goods_group_groupname</columns>
+      <desc-columns />
+    </index>
+    <index id="94" parent="24" name="fk_client_desire_groups_users1_idx">
+      <columns>users_username</columns>
+      <desc-columns />
+    </index>
+    <key id="95" parent="24" name="PRIMARY">
+      <columns>idclient_desire_groups
+users_username</columns>
+      <primary>1</primary>
+    </key>
+    <foreign-key id="96" parent="24" name="fk_client_desire_groups_users1">
+      <columns>users_username</columns>
+      <ref-key>~.users.PRIMARY</ref-key>
+      <cascade-update-rule>no_action</cascade-update-rule>
+      <cascade-delete-rule>no_action</cascade-delete-rule>
+    </foreign-key>
+    <foreign-key id="97" parent="24" name="fk_client_desire_groups_static_goods_group1">
+      <columns>static_goods_group_groupname</columns>
+      <ref-key>~.static_goods_group.PRIMARY</ref-key>
+      <cascade-update-rule>no_action</cascade-update-rule>
+      <cascade-delete-rule>no_action</cascade-delete-rule>
+    </foreign-key>
+    <column id="98" parent="25" name="idstatic_asset_status">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <key id="99" parent="25" name="PRIMARY">
+      <columns>idstatic_asset_status</columns>
+      <primary>1</primary>
+    </key>
+    <column id="100" parent="26" name="groupname">
+      <mandatory>1</mandatory>
+      <data-type>varchar(45)|0</data-type>
+    </column>
+    <key id="101" parent="26" name="PRIMARY">
+      <columns>groupname</columns>
+      <primary>1</primary>
+    </key>
+  </database-model>
+</dataSource>

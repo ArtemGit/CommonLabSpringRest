@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:jee="http://www.springframework.org/schema/jee"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/tx
+        http://www.springframework.org/schema/tx/spring-tx.xsd
+        http://www.springframework.org/schema/jee
+        http://www.springframework.org/schema/jee/spring-jee.xsd">
+    <context:component-scan base-package="Controllers"/>
+    <context:component-scan base-package="entities"/>
+    <context:component-scan base-package="dao"/>
+    <context:annotation-config/>
+
+    <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+        <property name="url" value="jdbc:mysql://localhost:3306/kursbank"/>
+        <property name="username" value="root"/>
+        <property name="password" value="1234"/>
+    </bean>
+
+    <bean id = "sessionFactory"
+          class = "org.springframework.orm.hibernate4.LocalSessionFactoryBean">
+        <property name="dataSource" ref="dataSource"/>
+        <property name="configLocation" value="classpath*:hibernate.cfg.xml"/>
+
+    </bean>
+
+    <bean id="transactionManager"
+          class="org.springframework.orm.hibernate4.HibernateTransactionManager">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+    <tx:annotation-driven transaction-manager="transactionManager"/>
+
+    <bean id="userDao" class="dao.userDaoImpl">
+        <constructor-arg>
+            <ref bean="sessionFactory"/>
+        </constructor-arg>
+    </bean>
+    <bean id="daoGroupMembers" class="dao.daoGroupMembersImpl">
+        <constructor-arg>
+            <ref bean="sessionFactory"/>
+        </constructor-arg>
+    </bean>
+    <bean id="goodsGroupDao" class="dao.goodsGroupDaoImpl">
+        <constructor-arg>
+            <ref bean="sessionFactory"/>
+        </constructor-arg>
+    </bean>
+    <bean id="applicationDao" class="dao.applicationDaoImpl">
+        <constructor-arg>
+            <ref bean="sessionFactory"/>
+        </constructor-arg>
+    </bean>
+    <bean id="goodsDao" class="dao.goodsDaoImpl">
+        <constructor-arg>
+            <ref bean="sessionFactory"/>
+        </constructor-arg>
+    </bean>
+    <bean id="user" class="entities.Users">
+        <property name="username" value="login"/>
+        <property name="password" value="1234"/>
+        <property name="enabled" value="1"/>
+        <property name="name" value="Artem"/>
+        <property name="surname" value="Novitskii"/>
+        <property name="fathername" value="Olegovich"/>
+        <property name="phone" value="+375-33-3821422"/>
+        <property name="email" value="internet@mail.ru"/>
+        <property name="position" value="position"/>
+        <property name="date" value="date"/>
+    </bean>
+    <bean id="groupMempers" class="entities.GroupMembers">
+        <property name="id" value="1"/>
+        <property name="username" value="login"/>
+        <property name="groupId" value="2"/>
+    </bean>
+    <bean id="goodsGroup" class="entities.Goodsgroup">
+        <property name="name" value="tovar"/>
+        <property name="image" value="/resources/img/goodsAdmin/tovar.jpg"/>
+    </bean>
+
+
+
+
+
+
+    <bean id="multipartResolver"
+          class="org.springframework.web.multipart.commons.CommonsMultipartResolver"/>
+
+
+    <!--
+  <jee:jndi-lookup id="springDataSource" jndi-name="java:comp/env/jdbc/MyLocalDB"/>
+    <jee:jndi-lookup id="myDataSource"
+                      jndi-name="jdbc/MyLocalDB"
+                      expected-type="javax.sql.DataSource" />
+
+     <bean id="springDataSource" class="org.springframework.jndi.JndiObjectFactoryBean">
+         <property name="jndiName" value="MyLocalDB"/>
+         <property name="lookupOnStartup" value="true"/>
+         <property name="expectedType" value="javax.sql.DataSource"/>
+     </bean>-->
+
+</beans>
