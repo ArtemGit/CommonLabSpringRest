@@ -27,28 +27,7 @@
     <bean id = "sessionFactory"
           class = "org.springframework.orm.hibernate4.LocalSessionFactoryBean">
         <property name="dataSource" ref="dataSource"/>
-        <property name="mappingLocations">
-            <list>
-                <value>classpath:Application.hbm.xml</value>
-                <value>classpath:Asset.hbm.xml</value>
-                <value>classpath:AssetImage.hbm.xml</value>
-                <value>classpath:ClientDesireGroups.hbm.xml</value>
-                <value>classpath:Goodsgroup.hbm.xml</value>
-                <value>classpath:GroupAuthorities.hbm.xml</value>
-                <value>classpath:GroupMembers.hbm.xml</value>
-                <value>classpath:Groups.hbm.xml</value>
-                <value>classpath:PersistentLogins.hbm.xml</value>
-                <value>classpath:StaticAssetStatus.hbm.xml</value>
-                <value>classpath:StaticGoodsGroup.hbm.xml</value>
-                <value>classpath:Users.hbm.xml</value>
-            </list>
-        </property>
-        <property name="hibernateProperties">
-            <props>
-                <prop key="hibernate.connection.url">jdbc:mysql://localhost:3306/kursbank</prop>
-                <prop key="hibernate.connection.driver_class">com.mysql.jdbc.Driver</prop>
-            </props>
-        </property>
+        <property name="configLocation" value="classpath:hibernate.cfg.xml"/>
 
     </bean>
 
@@ -57,6 +36,12 @@
         <property name="sessionFactory" ref="sessionFactory"/>
     </bean>
     <tx:annotation-driven transaction-manager="transactionManager"/>
+
+    <bean id="staticGoodsGroupDao" class="dao.StaticGoodsGroupImpl">
+        <constructor-arg>
+            <ref bean="sessionFactory"/>
+        </constructor-arg>
+    </bean>
 
     <bean id="userDao" class="dao.userDaoImpl">
         <constructor-arg>

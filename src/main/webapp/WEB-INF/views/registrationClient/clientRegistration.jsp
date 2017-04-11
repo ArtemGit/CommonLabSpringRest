@@ -94,12 +94,12 @@
 
                 <div class="row">
                     <div class="form-group col-md-12">
-                        <label class="col-md-2 control-lable" for="uPasswordRepeat">Выберите интересующие группы
+                        <label class="col-md-2 control-lable" >Выберите интересующие группы
                             товаров</label>
                         <div class="col-md-7">
 
-                            <label ng-repeat="group in listgroups">
-                                <input type="checkbox" ng-model="group.selected" value="{{group.name}}"> {{group.name}}
+                            <label ng-repeat="group in bankGoodsGroupList">
+                                <input type="checkbox" ng-model="group.selected" value="{{group.groupname}}"> {{group.groupname}}
                             </label>
 
 
