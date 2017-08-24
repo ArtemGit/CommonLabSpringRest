@@ -18,15 +18,14 @@
                     <div class="form-group col-md-12">
                         <label class="col-md-2 control-lable" for="groupname">Наименование группы</label>
                         <div class="col-md-7">
-                            <input type="text" ng-model="group.name" name="groupname" id="groupname" class="username form-control input-sm" placeholder="Введите название реализуемой группы товаров" required ng-minlength="5" ng-maxlength="25"/>
-                            <div class="has-error" ng-show="myForm.username.$dirty">
-                                <span ng-show="myForm.groupname.$error.required">Это поле обязательно для заполнения</span>
-                                <span ng-show="myForm.groupname.$error.minlength">Минимальная длина названия 5 символов</span>
-                                <span ng-show="myForm.groupname.$error.maxlength">Максимальная длина названия 25 символов</span>
-                                <span ng-show="myForm.groupname.$invalid">Это поле заполненно некорректно</span>
-                            </div>
+                            <select name="groupname" id="groupname" class="selectpicker" ng-model="selectedGroup"
+                                    ng-change="showSelectValue()">
+                                <option ng-repeat="item in staticGoodsGroupList"
+                                                              value="{{item.groupname}}">{{item.groupname}}</option>
+                            </select>
                         </div>
                     </div>
+
                 </div>
                 <div class="row">
                     <div class="form-group col-md-12">
@@ -44,7 +43,7 @@
 
                 <div class="row">
                     <div class="form-actions floatRight">
-                        <input type="submit"  value="Добавить группу" class="btn btn-primary btn-sm" ng-disabled="myForm.$invalid">
+                        <input type="submit"  value="Добавить группу" class="btn btn-primary btn-sm" ng-disabled="myForm.$invalid ||  chooseGoodsGroup==0">
                     </div>
                 </div>
             </form>

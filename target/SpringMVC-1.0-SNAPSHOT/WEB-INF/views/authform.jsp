@@ -28,7 +28,7 @@
                                     <span class='input-group-addon'><span
                                             class='glyphicon glyphicon-user'></span></span>
                                     <input type='text' class='username form-control input-sm' name='user_login'
-                                           ng-model="user_login" placeholder='Имя пользователя' required autofocus
+                                           ng-model="user_login" placeholder='логин/телефон' required autofocus
                                            ng-minlength="3"/>
                                     <div class="has-error" ng-show="myform.user_login.$dirty">
                                         <span ng-show="myform.user_login.$error.required">Это поле обязательно для заполения</span>
@@ -44,17 +44,8 @@
                                         <span ng-show="myform.password_login.$error.required">Это поле обязательно для заполения</span>
                                     </div>
                                 </div>
-                                <div class='panel-footer'>
+
                                     <div class='row'>
-                                        <div class='col-xs-6 col-sm-6 col-md-6'>
-                                            <div class='checkbox'>
-                                                <label>
-                                                    <input type='checkbox' name="_spring_security_remember_me"
-                                                           value='Remember'>
-                                                    Запомнить меня
-                                                </label>
-                                            </div>
-                                        </div>
                                         <div class='col-xs-6 col-sm-6 col-md-6'>
                                             <button type='submit' class='btn btn-labeled btn-success '
                                                     ng-disabled="myform.$invalid">
@@ -68,7 +59,7 @@
                                             </button>
                                         </div>
                                     </div>
-                                </div>
+
                             </form>
 
                         </div>

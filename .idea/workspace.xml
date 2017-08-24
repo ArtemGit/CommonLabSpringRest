@@ -1,10 +1,174 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/listGoodsGroups.jsp" description="    &lt;div class=&quot;row&quot;&gt;&#10;&#10;        &lt;div class=&quot;col-sm-..." line="5" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/listGoodsGroups.jsp" description="    &lt;div class=&quot;row&quot;&gt;&#10;&#10;        &lt;div class=&quot;col-sm-..." line="21" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/dao/ClientDesireGroupsDao.java" description="}" line="15" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c624242c-ef1f-47a6-a958-a0d26eabc1de" name="Default" comment="" />
+    <list default="true" id="c624242c-ef1f-47a6-a958-a0d26eabc1de" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/classes/Controllers/AssetImagesController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/classes/Controllers/StaticAssetStatusController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/classes/Controllers/StaticBankGoodsGroupController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/classes/classes/ApplicationStatus.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/classes/dao/AssetImageDao.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/classes/dao/AssetImageImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/classes/dao/ClientDesireGroupsDao.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/classes/dao/ClientDesireGroupsDaoImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/classes/dao/StaticAssetStatusDao.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/classes/dao/StaticAssetStatusImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/classes/dao/StaticGoodsGroupDao.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/classes/dao/StaticGoodsGroupImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/resources/img/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/Controllers/AssetImagesController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/Controllers/StaticAssetStatusController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/Controllers/StaticBankGoodsGroupController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/classes/ApplicationStatus.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dao/AssetImageDao.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dao/AssetImageImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dao/ClientDesireGroupsDao.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dao/ClientDesireGroupsDaoImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dao/StaticAssetStatusDao.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dao/StaticAssetStatusImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dao/StaticGoodsGroupDao.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/dao/StaticGoodsGroupImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Controllers/AssetImagesController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Controllers/StaticAssetStatusController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/classes/ApplicationStatus.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/dao/AssetImageDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/dao/AssetImageImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/dao/ClientDesireGroupsDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/dao/ClientDesireGroupsDaoImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/dao/StaticAssetStatusDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/dao/StaticAssetStatusImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/assetImage.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/clientTable.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/formSetPriceRealisation.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/jquery-3.1.1.slim.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/jquery.zoom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/view-image.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/views/assetImage.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/views/clientTable.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/views/formSetPriceRealisation.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/resources/js/jquery-3.1.1.slim.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/resources/js/jquery.zoom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/resources/js/view-image.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/classes/Controllers/goodsConroller.class" afterPath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/classes/Controllers/goodsConroller.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/classes/Controllers/homePageController.class" afterPath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/classes/Controllers/homePageController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/classes/Controllers/messageConroller.class" afterPath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/classes/Controllers/messageConroller.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/classes/Controllers/successHandler.class" afterPath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/classes/Controllers/successHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/classes/Controllers/userController.class" afterPath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/classes/Controllers/userController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/classes/dao/applicationDao.class" afterPath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/classes/dao/applicationDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/classes/dao/applicationDaoImpl.class" afterPath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/classes/dao/applicationDaoImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/classes/dao/daoGroupMembers.class" afterPath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/classes/dao/daoGroupMembers.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/classes/dao/daoGroupMembersImpl.class" afterPath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/classes/dao/daoGroupMembersImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/classes/dao/goodsDao.class" afterPath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/classes/dao/goodsDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/classes/dao/goodsDaoImpl.class" afterPath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/classes/dao/goodsDaoImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/classes/dao/goodsGroupDao.class" afterPath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/classes/dao/goodsGroupDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/classes/dao/goodsGroupDaoImpl.class" afterPath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/classes/dao/goodsGroupDaoImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/classes/dao/userDao.class" afterPath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/classes/dao/userDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/classes/dao/userDaoImpl.class" afterPath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/classes/dao/userDaoImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/classes/entities/Application.class" afterPath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/classes/entities/Application.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/classes/entities/Asset.class" afterPath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/classes/entities/Asset.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/classes/entities/AssetImage.class" afterPath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/classes/entities/AssetImage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/classes/entities/ClientDesireGroups.class" afterPath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/classes/entities/ClientDesireGroups.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/classes/entities/Goodsgroup.class" afterPath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/classes/entities/Goodsgroup.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/classes/entities/GroupAuthorities.class" afterPath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/classes/entities/GroupAuthorities.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/classes/entities/GroupMembers.class" afterPath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/classes/entities/GroupMembers.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/classes/entities/Groups.class" afterPath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/classes/entities/Groups.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/classes/entities/PersistentLogins.class" afterPath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/classes/entities/PersistentLogins.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/classes/entities/StaticAssetStatus.class" afterPath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/classes/entities/StaticAssetStatus.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/classes/entities/StaticGoodsGroup.class" afterPath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/classes/entities/StaticGoodsGroup.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/classes/entities/Users.class" afterPath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/classes/entities/Users.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Controllers/goodsConroller.class" afterPath="$PROJECT_DIR$/target/classes/Controllers/goodsConroller.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Controllers/homePageController.class" afterPath="$PROJECT_DIR$/target/classes/Controllers/homePageController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Controllers/messageConroller.class" afterPath="$PROJECT_DIR$/target/classes/Controllers/messageConroller.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Controllers/successHandler.class" afterPath="$PROJECT_DIR$/target/classes/Controllers/successHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Controllers/userController.class" afterPath="$PROJECT_DIR$/target/classes/Controllers/userController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/dao/applicationDao.class" afterPath="$PROJECT_DIR$/target/classes/dao/applicationDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/dao/applicationDaoImpl.class" afterPath="$PROJECT_DIR$/target/classes/dao/applicationDaoImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/dao/daoGroupMembers.class" afterPath="$PROJECT_DIR$/target/classes/dao/daoGroupMembers.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/dao/daoGroupMembersImpl.class" afterPath="$PROJECT_DIR$/target/classes/dao/daoGroupMembersImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/dao/goodsDao.class" afterPath="$PROJECT_DIR$/target/classes/dao/goodsDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/dao/goodsDaoImpl.class" afterPath="$PROJECT_DIR$/target/classes/dao/goodsDaoImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/dao/goodsGroupDao.class" afterPath="$PROJECT_DIR$/target/classes/dao/goodsGroupDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/dao/goodsGroupDaoImpl.class" afterPath="$PROJECT_DIR$/target/classes/dao/goodsGroupDaoImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/dao/userDao.class" afterPath="$PROJECT_DIR$/target/classes/dao/userDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/dao/userDaoImpl.class" afterPath="$PROJECT_DIR$/target/classes/dao/userDaoImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/entities/Application.class" afterPath="$PROJECT_DIR$/target/classes/entities/Application.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/entities/Asset.class" afterPath="$PROJECT_DIR$/target/classes/entities/Asset.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/entities/AssetImage.class" afterPath="$PROJECT_DIR$/target/classes/entities/AssetImage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/entities/ClientDesireGroups.class" afterPath="$PROJECT_DIR$/target/classes/entities/ClientDesireGroups.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/entities/Goodsgroup.class" afterPath="$PROJECT_DIR$/target/classes/entities/Goodsgroup.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/entities/GroupAuthorities.class" afterPath="$PROJECT_DIR$/target/classes/entities/GroupAuthorities.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/entities/GroupMembers.class" afterPath="$PROJECT_DIR$/target/classes/entities/GroupMembers.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/entities/Groups.class" afterPath="$PROJECT_DIR$/target/classes/entities/Groups.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/entities/PersistentLogins.class" afterPath="$PROJECT_DIR$/target/classes/entities/PersistentLogins.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/entities/StaticAssetStatus.class" afterPath="$PROJECT_DIR$/target/classes/entities/StaticAssetStatus.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/entities/StaticGoodsGroup.class" afterPath="$PROJECT_DIR$/target/classes/entities/StaticGoodsGroup.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/entities/Users.class" afterPath="$PROJECT_DIR$/target/classes/entities/Users.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CommonLabSpringRest.iml" afterPath="$PROJECT_DIR$/CommonLabSpringRest.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Controllers/StaticBankGoodsGroupController.java" afterPath="$PROJECT_DIR$/src/main/java/Controllers/StaticBankGoodsGroupController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Controllers/goodsConroller.java" afterPath="$PROJECT_DIR$/src/main/java/Controllers/goodsConroller.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Controllers/homePageController.java" afterPath="$PROJECT_DIR$/src/main/java/Controllers/homePageController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Controllers/messageConroller.java" afterPath="$PROJECT_DIR$/src/main/java/Controllers/messageConroller.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Controllers/successHandler.java" afterPath="$PROJECT_DIR$/src/main/java/Controllers/successHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Controllers/userController.java" afterPath="$PROJECT_DIR$/src/main/java/Controllers/userController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dao/StaticGoodsGroupDao.java" afterPath="$PROJECT_DIR$/src/main/java/dao/StaticGoodsGroupDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dao/StaticGoodsGroupImpl.java" afterPath="$PROJECT_DIR$/src/main/java/dao/StaticGoodsGroupImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dao/applicationDao.java" afterPath="$PROJECT_DIR$/src/main/java/dao/applicationDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dao/applicationDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/dao/applicationDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dao/daoGroupMembers.java" afterPath="$PROJECT_DIR$/src/main/java/dao/daoGroupMembers.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dao/daoGroupMembersImpl.java" afterPath="$PROJECT_DIR$/src/main/java/dao/daoGroupMembersImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dao/goodsDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/dao/goodsDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dao/goodsGroupDao.java" afterPath="$PROJECT_DIR$/src/main/java/dao/goodsGroupDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dao/goodsGroupDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/dao/goodsGroupDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dao/userDao.java" afterPath="$PROJECT_DIR$/src/main/java/dao/userDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dao/userDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/dao/userDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/entities/Application.java" afterPath="$PROJECT_DIR$/src/main/java/entities/Application.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/entities/Asset.java" afterPath="$PROJECT_DIR$/src/main/java/entities/Asset.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/adminPage.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/adminPage.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/applicationForm.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/applicationForm.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/applicationsTable.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/applicationsTable.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/authform.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/authform.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/formRegistrationGroupGoods.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/formRegistrationGroupGoods.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/formRegistrationUsersForAdmin.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/formRegistrationUsersForAdmin.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/goodsAdminPage.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/goodsAdminPage.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/goodsPage.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/goodsPage.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/homePage.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/homePage.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/listGoodsGroups.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/listGoodsGroups.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/registrationClient/clientRegistration.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/registrationClient/clientRegistration.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userTable.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userTable.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/userFormRegistrationStyle.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/userFormRegistrationStyle.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/adminPage.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/adminPage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/authorisationAngular.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/authorisationAngular.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/goodsAdmin.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/goodsAdmin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/classes/applicationContext.xml" afterPath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/classes/applicationContext.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/views/adminPage.jsp" afterPath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/views/adminPage.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/views/applicationForm.jsp" afterPath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/views/applicationForm.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/views/applicationsTable.jsp" afterPath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/views/applicationsTable.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/views/authform.jsp" afterPath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/views/authform.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/views/formRegistrationGroupGoods.jsp" afterPath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/views/formRegistrationGroupGoods.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/views/formRegistrationUsersForAdmin.jsp" afterPath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/views/formRegistrationUsersForAdmin.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/views/goodsAdminPage.jsp" afterPath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/views/goodsAdminPage.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/views/goodsPage.jsp" afterPath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/views/goodsPage.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/views/homePage.jsp" afterPath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/views/homePage.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/views/listGoodsGroups.jsp" afterPath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/views/listGoodsGroups.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/views/registrationClient/clientRegistration.jsp" afterPath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/views/registrationClient/clientRegistration.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/views/userTable.jsp" afterPath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/WEB-INF/views/userTable.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/resources/css/userFormRegistrationStyle.css" afterPath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/resources/css/userFormRegistrationStyle.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/resources/js/adminPage.js" afterPath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/resources/js/adminPage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/resources/js/authorisationAngular.js" afterPath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/resources/js/authorisationAngular.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/resources/js/goodsAdmin.js" afterPath="$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/resources/js/goodsAdmin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
+    </list>
     <ignored path="CommonLabSpringRest.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -43,80 +207,120 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+            <state relative-caret-position="221">
+              <caret line="13" column="48" selection-start-line="0" selection-start-column="0" selection-end-line="125" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClientDesireGroups.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/entities/ClientDesireGroups.java">
+      <file leaf-file-name="application-security.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/application-security.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding>
-                <element signature="e#235#236#0" expanded="true" />
-                <element signature="e#278#279#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="userDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dao/userDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="userDaoImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dao/userDaoImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="userController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Controllers/userController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="36" column="55" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="applicationDaoImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dao/applicationDaoImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="16" column="41" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="41" />
+            <state relative-caret-position="680">
+              <caret line="40" column="29" selection-start-line="0" selection-start-column="0" selection-end-line="49" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hibernate.cfg.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
+      <file leaf-file-name="dispatcher-servlet.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="11" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="476">
-              <caret line="28" column="22" selection-start-line="5" selection-start-column="3" selection-end-line="28" selection-end-column="22" />
+              <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ApplicationStatus.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/classes/ApplicationStatus.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#581#582#0" expanded="false" />
+                <element signature="e#617#618#0" expanded="false" />
+                <element signature="e#1038#1039#0" expanded="false" />
+                <element signature="e#1067#1068#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="goodsConroller.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Controllers/goodsConroller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="42" column="15" selection-start-line="42" selection-start-column="15" selection-end-line="42" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="goodsGroupDao.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dao/goodsGroupDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GroupMembers.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/entities/GroupMembers.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding>
+                <element signature="e#190#191#0" expanded="false" />
+                <element signature="e#215#216#0" expanded="false" />
+                <element signature="e#249#250#0" expanded="false" />
+                <element signature="e#277#278#0" expanded="false" />
+                <element signature="e#312#313#0" expanded="false" />
+                <element signature="e#343#344#0" expanded="false" />
+                <element signature="e#391#392#0" expanded="false" />
+                <element signature="e#431#432#0" expanded="false" />
+                <element signature="e#463#464#0" expanded="false" />
+                <element signature="e#493#494#0" expanded="false" />
+                <element signature="e#537#538#0" expanded="false" />
+                <element signature="e#575#576#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Asset.hbm.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/Asset.hbm.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AssetImage.hbm.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/AssetImage.hbm.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -131,16 +335,21 @@
         <option value="Tag Library Descriptor" />
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="spring-beans.schema" />
+        <option value="Enum" />
         <option value="Interface" />
+        <option value="Class" />
         <option value="Jsp File" />
         <option value="JavaScript File" />
-        <option value="spring-beans.schema" />
-        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindBugs-IDEA-Workspace">
     <toolWindowEditorPreview>false</toolWindowEditorPreview>
+  </component>
+  <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -153,56 +362,56 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/warnigMessage.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/errorMessage.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userTable.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/Controllers/file.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Controllers/fileValidator.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/resources/js/homePage.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/resources/css/goodsAdminStyle.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/formRegistrationUsersForAdmin.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/applicationForm.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/Controllers/messageConroller.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/applicationsTable.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/formRegistrationGroupGoods.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/listGoodsGroups.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/goodsPage.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/Controllers/successHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/goodsAdminPage.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/application-security.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/adminPage.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/resources/js/adminPage.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/resources/js/goodsAdmin.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/resources/css/userFormRegistrationStyle2.css" />
-        <option value="$PROJECT_DIR$/src/main/java/Controllers/homePageController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/authform.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/homePage.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/resources/js/registrationClient.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/resources/js/registrationClient/registrationClient.js" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/StaticGoodsGroupImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/StaticGoodsGroupDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/ClientDesireGroupsDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Controllers/StaticBankGoodsGroupController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/js/authorisationAngular.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/registrationClient/clientRegistration.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/entities/Goodsgroup.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/Asset.hbm.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/entities/Asset.java" />
-        <option value="$PROJECT_DIR$/src/main/java/entities/GroupAuthorities.java" />
-        <option value="$PROJECT_DIR$/src/main/java/entities/Application.java" />
-        <option value="$PROJECT_DIR$/src/main/java/entities/Application.hbm.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/goodsGroupDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/goodsDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/daoGroupMembers.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/applicationDao.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/Controllers/goodsConroller.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/css/userFormRegistrationStyle.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/formRegistrationUsersForAdmin.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/dao/userDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/dao/userDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/goodsGroupDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/goodsDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/clientTable.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userTable.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/js/adminPage.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/adminPage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/StaticAssetStatusDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/StaticAssetStatusImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Controllers/StaticAssetStatusController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/formRegistrationGroupGoods.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/Controllers/AssetImagesController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/application-security.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/Controllers/successHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/daoGroupMembers.java" />
         <option value="$PROJECT_DIR$/src/main/java/dao/daoGroupMembersImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/applicationDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/ClientDesireGroupsDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/goodsGroupDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/goodsGroupDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/listGoodsGroups.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/classes/AssetStatus.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/registrationClient/clientRegistration.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/entities/Application.java" />
         <option value="$PROJECT_DIR$/src/main/java/Controllers/userController.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/homePage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/authform.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/classes/ApplicationStatus.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/applicationDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/applicationDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/AssetImageDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/AssetImageImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/goodsDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Controllers/messageConroller.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/goodsPage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/Controllers/homePageController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entities/Asset.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/applicationsTable.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/Controllers/goodsConroller.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/formSetPriceRealisation.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/applicationForm.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/js/jquery-3.1.1.slim.min.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/goodsAdminPage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/assetImage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/js/goodsAdmin.js" />
         <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
       </list>
     </option>
@@ -233,32 +442,7 @@
     </option>
   </component>
   <component name="MavenProjectNavigator">
-    <treeState>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="SpringMVC" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="SpringMVC" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Lifecycle" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
-        </PATH_ELEMENT>
-      </PATH>
-    </treeState>
+    <treeState />
   </component>
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
@@ -328,8 +512,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -365,70 +549,6 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CommonLabSpringRest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CommonLabSpringRest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CommonLabSpringRest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CommonLabSpringRest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -449,28 +569,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CommonLabSpringRest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CommonLabSpringRest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -521,10 +619,6 @@
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -552,9 +646,35 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CommonLabSpringRest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CommonLabSpringRest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -562,36 +682,38 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.1271777" />
     <property name="project.structure.side.proportion" value="0.28249744" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LibraryTask" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="DDL Data Source&#10;MySQL" />
     <property name="JPA.DatabaseSchemaImportDialog" value="b7f1128f-99ed-4a0e-a457-3c62c00cf9ba" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/Тёма/IdeaProjects/CommonLabSpringRestM/CommonLabSpringRest (2)/CommonLabSpringRest/src/main/java/dao/ClientDesireGroupsDaoImpl.java" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Тёма\IdeaProjects\CommonLabSpringRest\src\main\resources" />
-      <recent name="C:\Users\Тёма\IdeaProjects\CommonLabSpringRest\src\main\webapp\resources\js\registrationClient" />
-      <recent name="C:\Users\Тёма\IdeaProjects\CommonLabSpringRest\src\main\webapp\resources\css" />
-      <recent name="C:\Users\Тёма\IdeaProjects\CommonLabSpringRest\src\main\webapp\resources\css\bootstrap\css" />
-      <recent name="C:\Users\Тёма\IdeaProjects\CommonLabSpringRest\src\main\webapp\resources\css\bootstrap" />
-    </key>
-    <key name="ImportMappingsDialog.RecentPackages">
-      <recent name="entities" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="entities" />
       <recent name="dao" />
       <recent name="Controllers" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Тёма\IdeaProjects\CommonLabSpringRest\src\main\java\entities" />
-      <recent name="C:\Users\Тёма\IdeaProjects\CommonLabSpringRest\src\main\webapp\WEB-INF\views" />
-      <recent name="C:\Users\Тёма\IdeaProjects\CommonLabSpringRest\src\main\webapp\resources\img\goodsAdmin" />
-      <recent name="C:\Users\Тёма\IdeaProjects\CommonLabSpringRest\src\main\java\Controllers" />
+      <recent name="C:\Users\Тёма\IdeaProjects\CommonLabSpringRestM\CommonLabSpringRest (2)\CommonLabSpringRest\CommonLabSpringRest\target\SpringMVC-1.0-SNAPSHOT\resources\img" />
+      <recent name="C:\Users\Тёма\IdeaProjects\CommonLabSpringRestM\CommonLabSpringRest (2)\CommonLabSpringRest\target\SpringMVC-1.0-SNAPSHOT\resources\img" />
+      <recent name="C:\Users\Тёма\IdeaProjects\CommonLabSpringRestM\CommonLabSpringRest (2)\CommonLabSpringRest\src\main\webapp\resources\js" />
+      <recent name="C:\Users\Тёма\IdeaProjects\CommonLabSpringRestM\CommonLabSpringRest (2)\CommonLabSpringRest\src\main\webapp\resources\js\plugins\jQuery" />
+      <recent name="C:\Users\Тёма\IdeaProjects\CommonLabSpringRestM\CommonLabSpringRest (2)\CommonLabSpringRest\src\main\webapp\resources\img" />
+    </key>
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="entities" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Тёма\IdeaProjects\CommonLabSpringRestM\CommonLabSpringRest (2)\CommonLabSpringRest\src\main\webapp\resources\js" />
+      <recent name="C:\Users\Тёма\IdeaProjects\CommonLabSpringRest\src\main\resources" />
+      <recent name="C:\Users\Тёма\IdeaProjects\CommonLabSpringRest\src\main\webapp\resources\js\registrationClient" />
       <recent name="C:\Users\Тёма\IdeaProjects\CommonLabSpringRest\src\main\webapp\resources\css" />
+      <recent name="C:\Users\Тёма\IdeaProjects\CommonLabSpringRest\src\main\webapp\resources\css\bootstrap\css" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.tomcat">
@@ -1180,8 +1302,7 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <configuration default="false" name="tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.5" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="UPDATING_POLICY" value="restart-server" />
+    <configuration default="false" name="tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.5" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
       <deployment>
         <artifact name="CommonLabSpringRest:war exploded">
           <settings>
@@ -1326,11 +1447,29 @@
       <workItem from="1491423237156" duration="17000" />
       <workItem from="1491724486853" duration="23864000" />
       <workItem from="1491776694700" duration="15973000" />
+      <workItem from="1491947451680" duration="63000" />
+      <workItem from="1491948298525" duration="66824000" />
+      <workItem from="1492123776034" duration="19529000" />
+      <workItem from="1492371794967" duration="36000" />
+      <workItem from="1492559646607" duration="716000" />
+      <workItem from="1492564182572" duration="11250000" />
+      <workItem from="1494178901303" duration="4490000" />
+      <workItem from="1494183874709" duration="65975000" />
+      <workItem from="1494320395272" duration="9689000" />
+      <workItem from="1494769240700" duration="3275000" />
+      <workItem from="1494971327208" duration="538000" />
+      <workItem from="1495307560981" duration="1492000" />
+      <workItem from="1495315218010" duration="8723000" />
+      <workItem from="1495666838353" duration="1782000" />
+      <workItem from="1495740403236" duration="74000" />
+      <workItem from="1497219353340" duration="3499000" />
+      <workItem from="1498002188938" duration="779000" />
+      <workItem from="1503604862224" duration="116000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="600347000" />
+    <option name="totallyTimeSpent" value="799197000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1343,44 +1482,44 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1320" height="784" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26350245" sideWeight="0.3207262" order="15" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32565284" sideWeight="0.4969743" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13571429" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32565284" sideWeight="0.49694657" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47772658" sideWeight="0.5095238" order="14" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32565284" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13571429" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872504" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6144393" sideWeight="0.67927384" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12210201" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34126985" sideWeight="0.34375" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30634922" sideWeight="0.65625" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29603174" sideWeight="0.406639" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21587302" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24920635" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1766513" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32565284" sideWeight="0.49694657" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2795699" sideWeight="0.53025717" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20122887" sideWeight="0.67927384" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32733223" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24444444" sideWeight="0.19615385" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24444444" sideWeight="0.8038462" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24942791" sideWeight="0.5074627" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24116744" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32698414" sideWeight="0.345" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29603174" sideWeight="0.18181819" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.60983104" sideWeight="0.4904762" order="17" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27175573" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15946844" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15946844" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25345623" sideWeight="0.53025717" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39170507" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39170507" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.09166667" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4639017" sideWeight="0.60555553" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1388,37 +1527,37 @@
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26350245" sideWeight="0.3207262" order="15" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.4969743" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14674735" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3563748" sideWeight="0.5063492" order="15" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32565284" sideWeight="0.4969743" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1436508" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27175573" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15946844" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11526717" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21587302" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24920635" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32666665" sideWeight="0.49694657" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22422259" sideWeight="0.53025717" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18740399" sideWeight="0.4936508" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32565284" sideWeight="0.49694657" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25345623" sideWeight="0.53025717" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39170507" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28150573" sideWeight="0.67927384" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41781875" sideWeight="0.67927384" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872504" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32733223" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21651785" sideWeight="0.27877238" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12210201" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29603174" sideWeight="0.40811455" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.09166667" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24130106" sideWeight="0.72122765" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24942791" sideWeight="0.5074627" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24942791" sideWeight="0.5074627" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24603175" sideWeight="0.8181818" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29603174" sideWeight="0.406639" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4639017" sideWeight="0.60555553" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29603174" sideWeight="0.18181819" order="5" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1442,13 +1581,94 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/dao/userDaoImpl.java</url>
-          <line>71</line>
+          <url>file://$PROJECT_DIR$/src/main/java/Controllers/homePageController.java</url>
+          <line>93</line>
           <properties />
-          <option name="timeStamp" value="4" />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Controllers/AssetImagesController.java</url>
+          <line>66</line>
+          <properties />
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Controllers/AssetImagesController.java</url>
+          <line>105</line>
+          <properties />
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Controllers/goodsConroller.java</url>
+          <line>107</line>
+          <properties />
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Controllers/goodsConroller.java</url>
+          <line>87</line>
+          <properties />
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Controllers/goodsConroller.java</url>
+          <line>57</line>
+          <properties />
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Controllers/goodsConroller.java</url>
+          <line>232</line>
+          <properties />
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Controllers/homePageController.java</url>
+          <line>99</line>
+          <properties />
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Controllers/goodsConroller.java</url>
+          <line>289</line>
+          <properties />
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Controllers/goodsConroller.java</url>
+          <line>296</line>
+          <properties />
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Controllers/goodsConroller.java</url>
+          <line>158</line>
+          <properties />
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Controllers/goodsConroller.java</url>
+          <line>258</line>
+          <properties />
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Controllers/goodsConroller.java</url>
+          <line>320</line>
+          <properties />
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Controllers/goodsConroller.java</url>
+          <line>136</line>
+          <properties />
+          <option name="timeStamp" value="71" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="11" />
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="73" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1457,415 +1677,320 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/entities/StaticAssetStatus.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.3.RELEASE/spring-web-4.3.3.RELEASE-sources.jar!/org/springframework/http/HttpStatus.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="132">
+          <caret line="213" column="4" selection-start-line="213" selection-start-column="4" selection-end-line="213" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entities/GroupMembers.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/userDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="145">
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entities/Goodsgroup.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/java/sql/Date.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="73" column="11" selection-start-line="73" selection-start-column="11" selection-end-line="73" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/java/util/Date.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="130" column="13" selection-start-line="130" selection-start-column="13" selection-end-line="130" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/java/text/DateFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="370" column="7" selection-start-line="370" selection-start-column="4" selection-end-line="370" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/java/util/AbstractCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="84" column="19" selection-start-line="84" selection-start-column="19" selection-end-line="84" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="127" column="12" selection-start-line="127" selection-start-column="12" selection-end-line="127" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/java/time/LocalDateTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="1855" column="19" selection-start-line="1855" selection-start-column="19" selection-end-line="1855" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/java/time/Instant.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-          <folding />
+          <caret line="342" column="26" selection-start-line="342" selection-start-column="26" selection-end-line="342" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entities/AssetImage.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entities/GroupAuthorities.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="67" selection-start-line="11" selection-start-column="67" selection-end-line="11" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entities/AssetImage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entities/Users.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-491">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entities/Asset.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entities/Users.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entities/StaticGoodsGroup.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entities/StaticAssetStatus.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entities/Groups.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entities/GroupAuthorities.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entities/Goodsgroup.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entities/Application.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-159">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entities/ClientDesireGroupsPK.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entities/Application.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/application-security.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-60">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entities/PersistentLogins.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entities/Groups.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entities/Goodsgroup.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entities/AssetImage.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entities/ClientDesireGroups.hbm.xml">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/java/util/Collection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          <caret line="408" column="20" selection-start-line="408" selection-start-column="20" selection-end-line="408" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/clientTable.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.3.RELEASE/spring-web-4.3.3.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="229" column="0" selection-start-line="229" selection-start-column="0" selection-end-line="229" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/goodsDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Controllers/messageConroller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="231" column="137" selection-start-line="231" selection-start-column="137" selection-end-line="231" selection-end-column="137" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/goodsDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Controllers/homePageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="152" column="34" selection-start-line="152" selection-start-column="25" selection-end-line="152" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/entities/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-561">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="102">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Application.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="54" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/successMessage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="6" selection-start-line="2" selection-start-column="0" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/formSetPriceRealisation.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/resources/img/image_21.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/jquery-3.1.1.slim.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="4955" selection-start-line="3" selection-start-column="4955" selection-end-line="3" selection-end-column="4955" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/view-image.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-523">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/homePage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="3" selection-start-line="31" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/goodsAdminPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="49" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/applicationForm.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/SpringMVC-1.0-SNAPSHOT/resources/img/image_31.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/assetImage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1054">
+          <caret line="62" column="110" selection-start-line="62" selection-start-column="60" selection-end-line="62" selection-end-column="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Controllers/AssetImagesController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="114" column="32" selection-start-line="114" selection-start-column="29" selection-end-line="114" selection-end-column="32" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/goodsPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="44" column="11" selection-start-line="44" selection-start-column="11" selection-end-line="44" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/listGoodsGroups.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/userFormRegistrationStyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="39" column="1" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/userTable.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="38" column="98" selection-start-line="38" selection-start-column="98" selection-end-line="38" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/fonts/glyphicons-halflings-regular.eot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/applicationsTable.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/goodsAdmin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7072">
+          <caret line="497" column="15" selection-start-line="497" selection-start-column="15" selection-end-line="497" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entities/Users.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="28" selection-start-line="6" selection-start-column="3" selection-end-line="7" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/entities/Asset.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entities/AssetImage.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/goodsGroupDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/goodsDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/daoGroupMembers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/applicationDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Controllers/successHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ae4c7152-f8c1-4b40-a1b3-23a26a28f308/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Controllers/messageConroller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="27" column="67" selection-start-line="27" selection-start-column="67" selection-end-line="27" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Controllers/goodsConroller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="59" column="94" selection-start-line="59" selection-start-column="6" selection-end-line="59" selection-end-column="94" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/goodsGroupDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
-          <folding>
-            <element signature="e#470#471#0" expanded="true" />
-            <element signature="e#522#523#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/goodsDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/daoGroupMembersImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#952#953#0" expanded="false" />
-            <element signature="e#980#981#0" expanded="false" />
-            <element signature="e#1052#1053#0" expanded="false" />
-            <element signature="e#1080#1081#0" expanded="false" />
-            <element signature="e#1146#1147#0" expanded="false" />
-            <element signature="e#1173#1174#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="81" column="45" selection-start-line="81" selection-start-column="45" selection-end-line="81" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entities/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entities/Application.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/applicationDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="16" column="41" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/userDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/userDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Controllers/userController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="36" column="55" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="22" selection-start-line="5" selection-start-column="3" selection-end-line="28" selection-end-column="22" />
-          <folding />
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/entities/ClientDesireGroups.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entities/GroupAuthorities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
-            <element signature="e#235#236#0" expanded="true" />
-            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#179#180#0" expanded="false" />
+            <element signature="e#209#210#0" expanded="false" />
+            <element signature="e#253#254#0" expanded="false" />
+            <element signature="e#291#292#0" expanded="false" />
+            <element signature="e#327#328#0" expanded="false" />
+            <element signature="e#359#360#0" expanded="false" />
+            <element signature="e#409#410#0" expanded="false" />
+            <element signature="e#451#452#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entities/AssetImage.hbm.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/entities/GroupMembers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="e#190#191#0" expanded="false" />
+            <element signature="e#215#216#0" expanded="false" />
+            <element signature="e#249#250#0" expanded="false" />
+            <element signature="e#277#278#0" expanded="false" />
+            <element signature="e#312#313#0" expanded="false" />
+            <element signature="e#343#344#0" expanded="false" />
+            <element signature="e#391#392#0" expanded="false" />
+            <element signature="e#431#432#0" expanded="false" />
+            <element signature="e#463#464#0" expanded="false" />
+            <element signature="e#493#494#0" expanded="false" />
+            <element signature="e#537#538#0" expanded="false" />
+            <element signature="e#575#576#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Asset.hbm.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1873,26 +1998,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entities/Goodsgroup.hbm.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/AssetImage.hbm.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entities/ClientDesireGroups.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        <state relative-caret-position="221">
+          <caret line="13" column="48" selection-start-line="0" selection-start-column="0" selection-end-line="125" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/application-security.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="29" selection-start-line="0" selection-start-column="0" selection-end-line="49" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="11" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/classes/ApplicationStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#581#582#0" expanded="false" />
+            <element signature="e#617#618#0" expanded="false" />
+            <element signature="e#1038#1039#0" expanded="false" />
+            <element signature="e#1067#1068#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Controllers/goodsConroller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="42" column="15" selection-start-line="42" selection-start-column="15" selection-end-line="42" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/goodsGroupDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
           <folding />
         </state>
       </provider>

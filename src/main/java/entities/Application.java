@@ -1,5 +1,7 @@
 package entities;
 
+import classes.ApplicationStatus;
+
 import java.math.BigDecimal;
 import java.sql.Date;
 

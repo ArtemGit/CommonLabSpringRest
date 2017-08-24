@@ -52,7 +52,7 @@
                     <div class="navbar-collapse collapse">
                         <ul class="nav navbar-nav">
                             <li><a href="\homePage" class="smoothScroll">Home</a></li>
-                            <sec:authorize access="hasRole('ROLE_ADMIN')">
+                            <sec:authorize access="hasRole('ROLE_ADMIN') or hasRole('ROLE_CLIENT')">
                                 <li><a href="j_spring_security_logout" class="smoothScroll "
                                        data-placement="bottom"
                                        data-toggle="tooltip"
@@ -69,7 +69,8 @@
                                        data-toggle="tooltip"
                                        data-original-title="Добавление группы реализуемых товаров(Автомобили...)">Добавить
                                     группу товаров</a></li>
-
+                            </sec:authorize>
+                            <sec:authorize access="hasRole('ROLE_ADMIN') or hasRole('ROLE_CLIENT') ">
                                 <li><a ng-click="showApplicationList()"
                                        href="#" class="smoothScroll "
                                        data-placement="bottom"
@@ -77,6 +78,7 @@
                                        data-original-title="Список заявок на реализуемые товары">Просмотреть заявки</a>
                                 </li>
                             </sec:authorize>
+
                         </ul>
                     </div><!--/.nav-collapse -->
 

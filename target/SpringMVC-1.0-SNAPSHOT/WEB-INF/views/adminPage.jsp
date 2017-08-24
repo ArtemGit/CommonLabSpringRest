@@ -1,4 +1,4 @@
-
+w
 
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
@@ -76,6 +76,7 @@
                     <li ng-click="showFormUserRegistration()" class="active"><a href="#"><i class="fa fa-circle-o" ></i> Доабвление Управленцев</a></li>
                     <li><a href="/adminPage"><i class="fa fa-circle-o"></i>На главную панель</a></li>
                     <li ng-click="showWorkersList()"><a href="#"><i class="fa fa-circle-o"></i> Управленцы</a></li>
+                    <li ng-click="showClientsList()"><a href="#"><i class="fa fa-circle-o"></i> Клиенты</a></li>
                 </ul>
             </li>
 
@@ -105,7 +106,7 @@
     <section class="content start">
         <div class="dynamicBlockMessage2" dynamic="html3"></div>
         <div class="dynamicBlock" dynamic="html"></div>
-        <div class="dynamicBlockMessage" dynamic="html2"></div>
+`        <div class="dynamicBlockMessage" dynamic="html2"></div>
         <!-- Small boxes (Stat box) -->
         <div class="row start">
 
@@ -121,6 +122,8 @@
                     <div class="icon">
                         <i class="ion ion-stats-bars"></i>
                     </div>
+                    <a href="#" ng-click="showClientsList()" class="small-box-footer">Подробнее<i class="fa fa-arrow-circle-right"></i></a>
+
                 </div>
             </div>
             <!-- ./col -->

@@ -1,7 +1,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <link href="<c:url value="/resources/css/userFormRegistrationStyle.css"/>" rel="stylesheet"/>
-<div class="generic-container">
+<div >
     <div class="panel panel-default">
         <!-- Default panel contents -->
         <div class="panel-heading"><span class="lead">Список Управленцев</span>
@@ -15,6 +15,7 @@
                 <th>Фамилия</th>
                 <th>Имя</th>
                 <th>Отчество</th>
+                <th>Должность</th>
                 <th>Email</th>
                 <th>Телефон</th>
                 <th>Логин</th>
@@ -27,6 +28,7 @@
                 <td><span ng-bind="u.surname"></span></td>
                 <td><span ng-bind="u.name"></span></td>
                 <td><span ng-bind="u.fathername"></span></td>
+                <td><span ng-bind="u.position"></span></td>
                 <td><span ng-bind="u.email"></span></td>
                 <td><span ng-bind="u.phone"></span></td>
                 <td><span ng-bind="u.username"></span></td>

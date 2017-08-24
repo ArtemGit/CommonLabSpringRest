@@ -7,6 +7,7 @@ import org.hibernate.criterion.CriteriaSpecification;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -33,30 +34,28 @@ public class userDaoImpl implements userDao {
                 return user;
             }
         }
-            return null;
+        return null;
     }
 
 
     @Transactional
     public boolean saveUser(Users user) {
-       if(findByUserName(user.getUsername())==null) {
-           sessionFactory.getCurrentSession()
-                   .save(user);
-       return true;
-       }
-        else return false;
+        if (findByUserName(user.getUsername()) == null) {
+            sessionFactory.getCurrentSession()
+                    .save(user);
+            return true;
+        } else return false;
     }
 
     @Transactional
     public boolean updateUser(Users user) {
-        if(isUserExist(user)) {
+        if (isUserExist(user)) {
             Session session = sessionFactory.openSession();
             session.beginTransaction();
             session.update(user);
             session.getTransaction().commit();
             return true;
-        }
-        else return false;
+        } else return false;
     }
 
     @Transactional
@@ -65,10 +64,8 @@ public class userDaoImpl implements userDao {
             sessionFactory.getCurrentSession()
                     .delete(user);
             return true;
-        }
-        catch(Exception e)
-        {
-         return false;
+        } catch (Exception e) {
+            return false;
         }
     }
 
@@ -77,20 +74,49 @@ public class userDaoImpl implements userDao {
         List<Users> list = (List<Users>) sessionFactory.getCurrentSession()
                 .createCriteria(Users.class)
                 .setResultTransformer(CriteriaSpecification.DISTINCT_ROOT_ENTITY).list();
-        return list;
+        List<Users> result = new ArrayList<Users>();
+        for (Users u : list) {
+            if (u.getPosition() != null)
+                result.add(u);
+        }
+        return result;
     }
+
     @Transactional
     public void deleteAllUsers() {
         List<Users> list = findAllUsers();
-        Session session=sessionFactory.getCurrentSession();
-        for(Users user:list)
-                session.delete(user);
+        Session session = sessionFactory.getCurrentSession();
+        for (Users user : list)
+            session.delete(user);
     }
+
     @Transactional
-    public boolean isUserExist(Users user)
-    {
-        if(findByUserName(user.getUsername())==null)
-        return false;
+    public boolean isUserExist(Users user) {
+        if (findByUserName(user.getUsername()) == null)
+            return false;
         else return true;
+    }
+
+    @Transactional
+    public int countUsers() {
+        return findAllUsers().size();
+    }
+
+    @Transactional
+    public int countClients() {
+        return findAllClients().size();
+    }
+
+    @Transactional
+    public List<Users> findAllClients() {
+        List<Users> list = (List<Users>) sessionFactory.getCurrentSession()
+                .createCriteria(Users.class)
+                .setResultTransformer(CriteriaSpecification.DISTINCT_ROOT_ENTITY).list();
+        List<Users> result = new ArrayList<Users>();
+        for (Users u : list) {
+            if (u.getPosition() == null)
+                result.add(u);
+        }
+        return result;
     }
 }

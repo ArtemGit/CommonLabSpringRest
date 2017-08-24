@@ -20,4 +20,6 @@ public interface daoGroupMembers {
 
     void deleteAllUsers();
 
+    int findRoleUserByLogin(String login);
+
 }

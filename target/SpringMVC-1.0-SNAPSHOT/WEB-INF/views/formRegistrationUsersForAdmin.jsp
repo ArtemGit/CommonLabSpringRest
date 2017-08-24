@@ -47,7 +47,19 @@
                         </div>
                     </div>
                 </div>
-
+                <div class="row">
+                    <div class="form-group col-md-12">
+                        <label class="col-md-2 control-lable" for="position">Должность</label>
+                        <div class="col-md-7">
+                            <input type="text" name="position" ng-model="user.position" id="position" class="username form-control input-sm" placeholder="Введите отчество пользователя" required ng-minlength="6"/>
+                            <div class="has-error" ng-show="myForm.position.$dirty">
+                                <span ng-show="myForm.position.$error.required">Это поле обязательно для заполнения</span>
+                                <span ng-show="myForm.position.$error.minlength">Минимальная длина дллжности 6 символов</span>
+                                <span ng-show="myForm.position.$invalid">Это поле заполненно некорректно</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="row">
                     <div class="form-group col-md-12">
                         <label class="col-md-2 control-lable" for="uphone">Телефон пользователя</label>

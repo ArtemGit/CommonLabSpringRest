@@ -1,5 +1,6 @@
 package dao;
 
+import entities.ClientDesireGroups;
 import entities.Goodsgroup;
 
 import java.util.List;
@@ -14,7 +15,12 @@ public interface goodsGroupDao {
 
     List<Goodsgroup> findAllGoodsgroups();
 
-    public boolean isUserExist(Goodsgroup group);
+    boolean isUserExist(Goodsgroup group);
 
-    public Goodsgroup findGroupByName(String name);
+    Goodsgroup findGroupByName(String name);
+
+    int count();
+
+    List<Goodsgroup> findAllDesire(List<ClientDesireGroups> l);
+
 }

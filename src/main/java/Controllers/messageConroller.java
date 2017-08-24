@@ -1,6 +1,7 @@
 package Controllers;
 
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
@@ -152,12 +153,85 @@ public class messageConroller {
         return  model;
 
     }
+
     @RequestMapping(value = "/goodsAdminPage/addApplicationErrorMessage", method = RequestMethod.GET)
-    public ModelAndView addApplicationУккщкMessage() {
+    public ModelAndView addApplicationSuccessMessageError() {
         ModelAndView model = new ModelAndView();
-        model.addObject("message","Заявка на товар не создана из-за ошибок");
+        model.addObject("message","Внутренние ошибки сервера при подачи заявки,обратитесь к администратору!");
+        model.setViewName("errorMessage");
+        return  model;
+
+    }
+    @RequestMapping(value = "/goodsAdminPage/applicationExistMessageWarning", method = RequestMethod.GET)
+    public ModelAndView applicationExistMessageWarning() {
+        ModelAndView model = new ModelAndView();
+        model.addObject("message","Вы уже подали заявку на данное имущество!");
         model.setViewName("warningMessage");
         return  model;
 
     }
+  @RequestMapping(value = "/application/updateSuccessMessage", method = RequestMethod.GET)
+    public ModelAndView updateSuccessMessage() {
+        ModelAndView model = new ModelAndView();
+        model.addObject("message","Информация в вашей заявке успешно обновлена!");
+        model.setViewName("successMessage");
+        return  model;
+
+    }
+    @RequestMapping(value = "/application/updateErrorMessage", method = RequestMethod.GET)
+    public ModelAndView updateErrorMessage() {
+        ModelAndView model = new ModelAndView();
+        model.addObject("message","Внутренние ошибки сервера при обновлении заявки!");
+        model.setViewName("errorMessage");
+        return  model;
+
+    }
+    @RequestMapping(value = "/application/statusUpdateSuccessMessage/{status}/{idapplication}", method = RequestMethod.GET)
+    public ModelAndView statusUpdateSuccessMessage(@PathVariable("status") int status
+            ,@PathVariable("idapplication") int idapplication) {
+        ModelAndView model = new ModelAndView();
+        model.addObject("message",getSuccessMessageForUpdateStatusApplication(status,idapplication));
+        model.setViewName("successMessage");
+        return  model;
+
+    }
+    @RequestMapping(value = "/application/statusUpdateErrorMessage/{status}/{idapplication}", method = RequestMethod.GET)
+    public ModelAndView statusUpdateErrorMessage(@PathVariable("status") int status
+            ,@PathVariable("idapplication") int idapplication) {
+        ModelAndView model = new ModelAndView();
+        model.addObject("message",getErrorMessageForUpdateStatusApplication(status,idapplication));
+        model.setViewName("errorMessage");
+        return  model;
+    }
+
+    private String getErrorMessageForUpdateStatusApplication(int status,int idapplication)
+    {
+        switch (status){
+            case 2:return "Внутренние ошибки сервера!Отмена заявки №"+idapplication+" , операция не выполнелась!!Попробуйте в другой раз или свяжитесь с администратором системы!";
+            case 3:return "Внутренние ошибки сервера!В заявке №"+idapplication+" отказано, операция не выполнелась!!Попробуйте в другой раз или свяжитесь с администратором системы!";
+            case 4:return "Внутренние ошибки сервера!Заявака №"+idapplication+" принята к оформлению, операция не выполнелась!!Попробуйте в другой раз или свяжитесь с администратором системы!";
+            case 5:return "Внутренние ошибки сервера!Заявака №"+idapplication+" отмечена как просмотренная, операция не выполнелась!!Попробуйте в другой раз или свяжитесь с администратором системы!";
+            case 6:return "Внутренние ошибки сервера!Заявака №"+idapplication+" отмечена как реализванная, операция не выполнелась!!Попробуйте в другой раз или свяжитесь с администратором системы!";
+            default :return "Некорректный статус для изменения был отправлен!!";
+        }
+    }
+    private String getSuccessMessageForUpdateStatusApplication(int status,int idapplication)
+    {
+        switch (status){
+            case 2:return "Отмена заявки №"+idapplication+" , операция успешно завершилась!";
+            case 3:return "В заявке №"+idapplication+" отказано, оперция успешно завершилась!";
+            case 4:return "Заявака №"+idapplication+" принята к оформлению, оперция успешно завершилась!";
+            case 5:return "Заявака №"+idapplication+" отмечена как просмотренная, оперция успешно завершилась!";
+            case 6:return "Заявака №"+idapplication+" отмечена как реализванная, оперция успешно завершилась!";
+            default :return "Некорректный статус для изменения был отправлен!!";
+        }
+    }
+    @RequestMapping(value = "/goodsAdminPage/applicationAssetSelledMessageError", method = RequestMethod.GET)
+    public ModelAndView applicationAssetSelledMessageError() {
+        ModelAndView model = new ModelAndView();
+        model.addObject("message","Вы возмжно давно не обновляли страницу,данный товар уже реализован!! Заявка не может быть оформлена!!!");
+        model.setViewName("errorMessage");
+        return  model;
+    }
+
 }

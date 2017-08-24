@@ -1,8 +1,10 @@
 package Controllers;
 
 import dao.applicationDao;
+import dao.goodsDao;
 import dao.userDao;
 import dao.userDaoImpl;
+import entities.Asset;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.stereotype.Controller;
@@ -41,11 +43,9 @@ public class homePageController {
     public ModelAndView adminUserPage() {
         ApplicationContext ctx = new ClassPathXmlApplicationContext("applicationContext.xml");
         userDao userService = (userDao) ctx.getBean("userDao");
-        applicationDao applicationService = (applicationDao) ctx.getBean("applicationDao");
-        int count = userService.findAllUsers().size();
         ModelAndView model = new ModelAndView();
-        model.addObject("countWorkers",count);
-        model.addObject("countVisitors",applicationService.findAllApplications().size());
+        model.addObject("countWorkers",userService.countUsers());
+        model.addObject("countVisitors",userService.countClients());
         model.setViewName("adminPage");
         return  model;
     }
@@ -89,10 +89,20 @@ public class homePageController {
         model.setViewName("userTable");
         return  model;
     }
-    @RequestMapping(value = "/goodsAdminPage/formApplicationForGoods", method = RequestMethod.GET)
-    public ModelAndView getformApplicationForGoods() {
+    @RequestMapping(value = "/adminPage/tableClients", method = RequestMethod.GET)
+    public ModelAndView gettableClients() {
+        ModelAndView model = new ModelAndView();
+        model.setViewName("clientTable");
+        return  model;
+    }
+    @RequestMapping(value = "/goodsAdminPage/formApplicationForGoods/{status}", method = RequestMethod.GET)
+    public ModelAndView getformApplicationForGoods(@PathVariable String status) {
         ModelAndView model = new ModelAndView();
         model.setViewName("applicationForm");
+        if(status.equals("add"))
+        model.addObject("status",true);
+        if(status.equals("edit"))
+            model.addObject("status",false);
         return  model;
     }
     @RequestMapping(value = "/goodsAdminPage/applicationList/listApplications", method = RequestMethod.GET)
@@ -131,5 +141,17 @@ public class homePageController {
         model.setViewName("accessDenied");
         return model;
 
+    }
+
+    @RequestMapping(value = "/application/form/{assetIdAsset}", method = RequestMethod.GET)
+    public ModelAndView getformSetPriceRealisation(@PathVariable("assetIdAsset") int assetIdAsset) {
+        ApplicationContext ctx = new ClassPathXmlApplicationContext("applicationContext.xml");
+        goodsDao goodsService = (goodsDao) ctx.getBean("goodsDao");
+        ModelAndView model = new ModelAndView();
+        model.setViewName("formSetPriceRealisation");
+        Asset asset=goodsService.findById(assetIdAsset);
+        model.addObject("startCost",asset.getAssetCost());
+        model.addObject("assetName",asset.getAssetNameModel());
+        return  model;
     }
 }

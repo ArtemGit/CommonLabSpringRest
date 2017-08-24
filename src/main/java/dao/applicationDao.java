@@ -1,6 +1,9 @@
 package dao;
 
 import entities.Application;
+import entities.Asset;
+import org.hibernate.Session;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
@@ -14,5 +17,13 @@ public interface applicationDao {
     boolean saveApplication(Application appl);
 
     boolean isApplicationExist(Application appl);
+
+    List<Application> getAllForClient(String mobilePhone);
+
+    Application findApplicationByAssetIdAndPhone(int id,String phone);
+
+    boolean updateApplication(Application application);
+
+    boolean existApplicationForAsset(int idAsset);
 
 }

@@ -6,7 +6,6 @@
     .Myform {
         position: absolute;
         margin-top: 60px;
-        margin-left: 150px;
     }</style>
 <div class="generic-container Myform">
     <div class="panel panel-default">
@@ -15,11 +14,11 @@
             <form ng-submit="registrateClient()" ng-model="myForm" name="myForm" class="form-horizontal">
                 <div class="row">
                     <div class="form-group col-md-12">
-                        <label class="col-md-2 control-lable" for="uname">ФИО</label>
+                        <label class="col-md-2 control-lable" for="uname">ФИО(указать полность фИО)</label>
                         <div class="col-md-7">
                             <input type="text" ng-model="user.username" name="username"
                                    class="username form-control input-sm" placeholder="Введите ваше ФИО"
-                                   ng-pattern="/^[А-Яа-яЁё\s]{10,40}$/" required/>
+                                   ng-pattern="/^[А-Яа-яЁё\s-]{10,40}$/" required/>
                             <div class="has-error" ng-show="myForm.username.$dirty">
                                 <span ng-show="myForm.username.$error.required">Это поле обязательно для заполнения</span>
                                 <span ng-show="myForm.username.$invalid">Это поле заполненно некорректно</span>
@@ -32,11 +31,11 @@
 
                 <div class="row">
                     <div class="form-group col-md-12">
-                        <label class="col-md-2 control-lable" for="uphone">Телефон пользователя</label>
+                        <label class="col-md-2 control-lable" for="uphone">Укажите логин</label>
                         <div class="col-md-7">
                             <input type="text" name="uphone" ng-model="user.phone" id="uphone"
                                    class="username form-control input-sm" ng-pattern="/^\+?375[- ]\d{2}[- ]+\d{7}$/"
-                                   placeholder="+375-35-1234567" required/>
+                                   placeholder="Ваш телефон формата +375-35-1234567" required/>
                             <div class="has-error" ng-show="myForm.uphone.$dirty">
 
                                 <br><span ng-show="myForm.uphone.$error.pattern">Пожалуйста введите в формате +375-35-1234567 или 375-35-1234567(городской в формате +375-17-1234567)</span>
@@ -51,7 +50,7 @@
                         <label class="col-md-2 control-lable" for="email">Email</label>
                         <div class="col-md-7">
                             <input type="email" ng-model="user.email" name="email"
-                                   class="username form-control input-sm" placeholder="Введите Email пользователя"
+                                   class="username form-control input-sm" placeholder="Введите ваш Email"
                                    required/>
                             <div class="has-error" ng-show="myForm.email.$dirty">
                                 <span ng-show="myForm.email.$error.required">Это поле обязательно для заполнения</span>
@@ -94,7 +93,7 @@
 
                 <div class="row">
                     <div class="form-group col-md-12">
-                        <label class="col-md-2 control-lable" >Выберите интересующие группы
+                        <label class="col-md-2 cwontrol-lable" >Выберите интересующие группы
                             товаров</label>
                         <div class="col-md-7">
 

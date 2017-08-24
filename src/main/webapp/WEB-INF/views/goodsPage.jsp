@@ -1,7 +1,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@taglib prefix="sec" uri="http://www.springframework.org/security/tags" %>
-    <title>AngularJS $http Example</title>
+    <title>ThemaBank</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link href="<c:url value="/resources/css/userFormRegistrationStyle.css"/>" rel="stylesheet" />
     <link href="<c:url value="/resources/css/userFormRegistrationStyle2.css"/>" rel="stylesheet" />
@@ -55,11 +55,25 @@
                         </div>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="form-group col-md-12">
+                        <label class="col-md-2 control-lable" for="staticAssetStatusIdstaticAssetStatus">Статус товара</label>
+                        <div class="col-md-7">
+                            <select name="staticAssetStatusIdstaticAssetStatus"
+                                    id="staticAssetStatusIdstaticAssetStatus"
+                                    class="selectpicker"
+                                    ng-change="showSelectValueStaticAssetStatusIdstaticAssetStatus()"
+                                    ng-model="selectedStatus"
+                                    ng-init="selectedStatus  = staticAssetStatusIdstaticAssetStatusList[0]"
+                                    ng-options="item.idstaticAssetStatus for item in staticAssetStatusIdstaticAssetStatusList">
 
+                            </select>
+                        </div>
+                    </div>
+                </div>
                 <div class="row">
                     <div class="form-actions floatRight">
-                        <input type="submit"  value="{{!goods.idAsset ? 'Добавить' : 'Обновить'}}" class="btn btn-primary btn-sm" ng-disabled="myForm.$invalid">
-                        <button type="button" ng-click="reset()" class="btn btn-warning btn-sm" ng-disabled="myForm.$pristine">Очистить форму</button>
+                        <input type="submit"  value="{{!goods.idAsset ? 'Добавить' : 'Обновить'}}" class="btn btn-primary btn-sm" ng-disabled="myForm.$invalid || chooseIdstaticAssetStatus==0">
                     </div>
                 </div>
             </form>
@@ -70,34 +84,72 @@
         <!-- Default panel contents -->
         <div class="panel-heading"><span class="lead">Список товаров группы</span>
             <input type="text" placeholder="Поиск..." id="myInput" onkeyup="seachInUserTable()"/>
+            <sec:authorize access="hasRole('ROLE_ADMIN')">
+                <button type="button" ng-click="listAssetsBy('${group}','release')"
+                        class="btn btn-success icon icon-coin"
+                        data-toggle="tooltip"
+                        data-placement="bottom"
+                        title="Реализованные товары"></button>
+                <button type="button" ng-click="listAssetsBy('${group}','old')"
+                        class="btn btn-danger glyphicon glyphicon-time"
+                        data-toggle="tooltip"
+                        data-placement="bottom"
+                        title="Товары реализуемые более 2 месяцев"></button>
+                <button type="button" ng-click="getListGroupGoods('${group}')"
+                        class="btn btn-warning glyphicon glyphicon-th-list"
+                        data-toggle="tooltip"
+                        data-placement="bottom"
+                        title="Товары реализуемые сейчас"></button>
+            </sec:authorize>
         </div>
         <div class="tablecontainer">
             <table class="table table-hover" id="myTB">
                 <thead>
                 <tr>
+                    <sec:authorize access="hasRole('ROLE_ADMIN') or hasRole('ROLE_CLIENT')">
                     <th>ID.</th>
+                    </sec:authorize>
                     <th>Нименование товара</th>
                     <th>Стоимость</th>
+                    <sec:authorize access="hasRole('ROLE_ADMIN') or hasRole('ROLE_CLIENT')">
                     <th>Описание</th>
                     <th>Контактное лицо по продажам</th>
                     <th>Кнтакты</th>
+                    </sec:authorize>
+                    <sec:authorize access="hasRole('ROLE_ADMIN')">
+                    <th>Статус</th>
+                    </sec:authorize>
                     <th width="20%"></th>
                 </tr>
                 </thead>
                 <tbody>
                 <tr ng-repeat="g in listGoods">
+                    <sec:authorize access="hasRole('ROLE_ADMIN') or hasRole('ROLE_CLIENT')">
                     <td><span ng-bind="g.idAsset"></span></td>
+                    </sec:authorize>
                     <td><span ng-bind="g.assetNameModel"></span></td>
                     <td><span ng-bind="g.assetCost"></span></td>
+                    <sec:authorize access="hasRole('ROLE_ADMIN') or hasRole('ROLE_CLIENT')">
                     <td><span ng-bind="g.description"></span></td>
                     <td><span ng-bind="g.username"></span></td>
                     <td><span ng-bind="g.goodsGroupName"></span></td>
+                    </sec:authorize>
+                    <sec:authorize access="hasRole('ROLE_ADMIN')">
+                    <td><span ng-bind="g.staticAssetStatusIdstaticAssetStatus"></span></td>
+                    </sec:authorize>
                     <td>
                         <sec:authorize access="hasRole('ROLE_ADMIN')">
-                        <button type="button" ng-click="edit(g.idAsset)" class="btn btn-success custom-width">Изменить</button>
-                        <button type="button" ng-click="removeAsset(g.idAsset)" class="btn btn-danger custom-width">Удалить</button>
+                        <button type="button" ng-click="edit(g.idAsset)" class="btn btn-warning custom-width">Изменить</button>
                         </sec:authorize>
+                        <sec:authorize access="hasRole('ROLE_ADMIN') or hasRole('ROLE_CLIENT')">
+                            <button type="button" ng-click="imageList(g.idAsset)" class="btn btn-danger custom-width">Картинки</button>
+                        </sec:authorize>
+                        <sec:authorize access="hasRole('ROLE_ADMIN')">
+                        <button type="button" ng-click="removeAsset(g.idAsset)" class="btn btn-success custom-width">Удалить</button>
+                        </sec:authorize>
+                        <sec:authorize access="hasRole('ROLE_CLIENT')">
                         <button type="button" ng-click="makeApplication(g.idAsset,g.assetNameModel)" class="btn btn-primary custom-width">Заявка</button>
+                        </sec:authorize>
                     </td>
                 </tr>
                 </tbody>

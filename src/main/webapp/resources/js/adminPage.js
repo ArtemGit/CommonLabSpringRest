@@ -69,6 +69,23 @@ app.controller("adminController", ['$sce', '$scope', '$http', 'Users', function 
         });
     }
 //////////////////////////////////////////////
+    //////////////////get table clients watching
+    $scope.showClientsList = function () {
+
+        //empty content
+        angular.element(document.querySelector('.dynamicBlock')).empty();
+        angular.element(document.querySelector('.dynamicBlockMessage2')).empty();
+        angular.element(document.querySelector('.dynamicBlockMessage')).empty();
+        angular.element(document.querySelector('.row.start')).remove();
+        //get form from server
+        $http.get("/adminPage/tableClients").then(function successCallback(response) {
+            self.fetchAllClients();
+            $scope.html2 = $sce.trustAsHtml(response.data);
+        }, function errorCallback(response) {
+            alert("Ошибки работы сервиса");
+        });
+    }
+//////////////////////////////////////////////
 //////////////////////////////////////////////
 
 //////////////////////////////////////////////
@@ -80,11 +97,18 @@ app.controller("adminController", ['$sce', '$scope', '$http', 'Users', function 
     };
     ///////////////////////////////////////////////////////
     $scope.users = [];
-   $scope.countVisitors = 23
+
     //Get all users
     self.fetchAllUsers = function () {
      $scope.users = Users.query();
      };
+    //Get all users
+    self.fetchAllClients = function () {
+            $http.get('/user/clientsList')
+                .then(function(result) {
+                    $scope.users  = result.data;
+                });
+    };
     //Add user to DB
     self.createUser = function () {
 

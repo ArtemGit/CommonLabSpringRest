@@ -22,5 +22,11 @@ public interface userDao {
 
     void deleteAllUsers();
 
-    public boolean isUserExist(Users user);
+     boolean isUserExist(Users user);
+
+    int countUsers();
+
+    int countClients();
+
+    List<Users> findAllClients();
 }

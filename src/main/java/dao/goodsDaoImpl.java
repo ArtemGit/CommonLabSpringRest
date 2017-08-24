@@ -97,7 +97,7 @@ public class goodsDaoImpl  implements goodsDao {
                 .setResultTransformer(CriteriaSpecification.DISTINCT_ROOT_ENTITY).list();
         List<Asset> res=new ArrayList<Asset>();
         for(Asset asset:list)
-            if(asset.getGoodsGroupName().equals(groupname))
+            if(asset.getGoodsGroupName().equals(groupname) )
                 res.add(asset);
         return res;
     }

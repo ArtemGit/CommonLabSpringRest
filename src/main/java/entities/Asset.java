@@ -1,5 +1,7 @@
 package entities;
 
+
+
 /**
  * Created by Тёма on 10.04.2017.
  */
@@ -126,4 +128,5 @@ public class Asset {
         result = 31 * result + (int) enable;
         return result;
     }
+
 }
